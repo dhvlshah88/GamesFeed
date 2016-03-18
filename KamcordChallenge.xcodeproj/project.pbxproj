@@ -9,13 +9,20 @@
 /* Begin PBXBuildFile section */
 		7F368EEF1C9A10D600A27D3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F368EEE1C9A10D600A27D3C /* main.m */; };
 		7F368EF21C9A10D600A27D3C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F368EF11C9A10D600A27D3C /* AppDelegate.m */; };
-		7F368EF51C9A10D600A27D3C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F368EF41C9A10D600A27D3C /* ViewController.m */; };
-		7F368EF81C9A10D600A27D3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F368EF61C9A10D600A27D3C /* Main.storyboard */; };
+		7F368EF51C9A10D600A27D3C /* AppCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F368EF41C9A10D600A27D3C /* AppCollectionViewController.m */; };
 		7F368EFB1C9A10D600A27D3C /* KamcordChallenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7F368EF91C9A10D600A27D3C /* KamcordChallenge.xcdatamodeld */; };
 		7F368EFD1C9A10D600A27D3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F368EFC1C9A10D600A27D3C /* Assets.xcassets */; };
-		7F368F001C9A10D600A27D3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F368EFE1C9A10D600A27D3C /* LaunchScreen.storyboard */; };
 		7F368F0B1C9A10D600A27D3C /* KamcordChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F368F0A1C9A10D600A27D3C /* KamcordChallengeTests.m */; };
 		7F368F161C9A10D600A27D3C /* KamcordChallengeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F368F151C9A10D600A27D3C /* KamcordChallengeUITests.m */; };
+		7F368F2B1C9A14A500A27D3C /* AppCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F368F2A1C9A14A500A27D3C /* AppCollectionViewCell.m */; };
+		7F368F2C1C9A14A500A27D3C /* AppCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F368F2A1C9A14A500A27D3C /* AppCollectionViewCell.m */; };
+		7F368F2D1C9A14A500A27D3C /* AppCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F368F2A1C9A14A500A27D3C /* AppCollectionViewCell.m */; };
+		7F368F301C9A2C5E00A27D3C /* AppData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F368F2F1C9A2C5E00A27D3C /* AppData.m */; };
+		7F368F311C9A2C5E00A27D3C /* AppData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F368F2F1C9A2C5E00A27D3C /* AppData.m */; };
+		7F368F321C9A2C5E00A27D3C /* AppData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F368F2F1C9A2C5E00A27D3C /* AppData.m */; };
+		7F368F351C9A5C6600A27D3C /* AppDataUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F368F341C9A5C6600A27D3C /* AppDataUtil.m */; };
+		7F368F361C9A5C6600A27D3C /* AppDataUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F368F341C9A5C6600A27D3C /* AppDataUtil.m */; };
+		7F368F371C9A5C6600A27D3C /* AppDataUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F368F341C9A5C6600A27D3C /* AppDataUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,12 +47,10 @@
 		7F368EEE1C9A10D600A27D3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7F368EF01C9A10D600A27D3C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7F368EF11C9A10D600A27D3C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7F368EF31C9A10D600A27D3C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7F368EF41C9A10D600A27D3C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		7F368EF71C9A10D600A27D3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F368EF31C9A10D600A27D3C /* AppCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppCollectionViewController.h; sourceTree = "<group>"; };
+		7F368EF41C9A10D600A27D3C /* AppCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppCollectionViewController.m; sourceTree = "<group>"; };
 		7F368EFA1C9A10D600A27D3C /* KamcordChallenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KamcordChallenge.xcdatamodel; sourceTree = "<group>"; };
 		7F368EFC1C9A10D600A27D3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7F368EFF1C9A10D600A27D3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F368F011C9A10D600A27D3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F368F061C9A10D600A27D3C /* KamcordChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KamcordChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F368F0A1C9A10D600A27D3C /* KamcordChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KamcordChallengeTests.m; sourceTree = "<group>"; };
@@ -53,6 +58,12 @@
 		7F368F111C9A10D600A27D3C /* KamcordChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KamcordChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F368F151C9A10D600A27D3C /* KamcordChallengeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KamcordChallengeUITests.m; sourceTree = "<group>"; };
 		7F368F171C9A10D600A27D3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F368F291C9A14A500A27D3C /* AppCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppCollectionViewCell.h; sourceTree = "<group>"; };
+		7F368F2A1C9A14A500A27D3C /* AppCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppCollectionViewCell.m; sourceTree = "<group>"; };
+		7F368F2E1C9A2C5E00A27D3C /* AppData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppData.h; sourceTree = "<group>"; };
+		7F368F2F1C9A2C5E00A27D3C /* AppData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppData.m; sourceTree = "<group>"; };
+		7F368F331C9A5C6600A27D3C /* AppDataUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDataUtil.h; sourceTree = "<group>"; };
+		7F368F341C9A5C6600A27D3C /* AppDataUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDataUtil.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,16 +114,15 @@
 		7F368EEC1C9A10D600A27D3C /* KamcordChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				7F368F231C9A11C600A27D3C /* Cell */,
 				7F368EF01C9A10D600A27D3C /* AppDelegate.h */,
 				7F368EF11C9A10D600A27D3C /* AppDelegate.m */,
-				7F368EF31C9A10D600A27D3C /* ViewController.h */,
-				7F368EF41C9A10D600A27D3C /* ViewController.m */,
-				7F368EF61C9A10D600A27D3C /* Main.storyboard */,
+				7F7525911C9C8C9300DE0FF2 /* Views */,
 				7F368EFC1C9A10D600A27D3C /* Assets.xcassets */,
-				7F368EFE1C9A10D600A27D3C /* LaunchScreen.storyboard */,
 				7F368F011C9A10D600A27D3C /* Info.plist */,
 				7F368EF91C9A10D600A27D3C /* KamcordChallenge.xcdatamodeld */,
 				7F368EED1C9A10D600A27D3C /* Supporting Files */,
+				7F7525901C9C8C7F00DE0FF2 /* AppData */,
 			);
 			path = KamcordChallenge;
 			sourceTree = "<group>";
@@ -141,6 +151,35 @@
 				7F368F171C9A10D600A27D3C /* Info.plist */,
 			);
 			path = KamcordChallengeUITests;
+			sourceTree = "<group>";
+		};
+		7F368F231C9A11C600A27D3C /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				7F368F291C9A14A500A27D3C /* AppCollectionViewCell.h */,
+				7F368F2A1C9A14A500A27D3C /* AppCollectionViewCell.m */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		7F7525901C9C8C7F00DE0FF2 /* AppData */ = {
+			isa = PBXGroup;
+			children = (
+				7F368F2E1C9A2C5E00A27D3C /* AppData.h */,
+				7F368F2F1C9A2C5E00A27D3C /* AppData.m */,
+				7F368F331C9A5C6600A27D3C /* AppDataUtil.h */,
+				7F368F341C9A5C6600A27D3C /* AppDataUtil.m */,
+			);
+			name = AppData;
+			sourceTree = "<group>";
+		};
+		7F7525911C9C8C9300DE0FF2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7F368EF31C9A10D600A27D3C /* AppCollectionViewController.h */,
+				7F368EF41C9A10D600A27D3C /* AppCollectionViewController.m */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,6 +249,7 @@
 				TargetAttributes = {
 					7F368EE91C9A10D600A27D3C = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 6X4EJ86FNA;
 					};
 					7F368F051C9A10D600A27D3C = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -246,9 +286,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F368F001C9A10D600A27D3C /* LaunchScreen.storyboard in Resources */,
 				7F368EFD1C9A10D600A27D3C /* Assets.xcassets in Resources */,
-				7F368EF81C9A10D600A27D3C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +311,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F368EF51C9A10D600A27D3C /* ViewController.m in Sources */,
+				7F368EF51C9A10D600A27D3C /* AppCollectionViewController.m in Sources */,
 				7F368EFB1C9A10D600A27D3C /* KamcordChallenge.xcdatamodeld in Sources */,
 				7F368EF21C9A10D600A27D3C /* AppDelegate.m in Sources */,
+				7F368F301C9A2C5E00A27D3C /* AppData.m in Sources */,
+				7F368F2B1C9A14A500A27D3C /* AppCollectionViewCell.m in Sources */,
+				7F368F351C9A5C6600A27D3C /* AppDataUtil.m in Sources */,
 				7F368EEF1C9A10D600A27D3C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +325,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F368F311C9A2C5E00A27D3C /* AppData.m in Sources */,
+				7F368F361C9A5C6600A27D3C /* AppDataUtil.m in Sources */,
+				7F368F2C1C9A14A500A27D3C /* AppCollectionViewCell.m in Sources */,
 				7F368F0B1C9A10D600A27D3C /* KamcordChallengeTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,6 +336,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F368F321C9A2C5E00A27D3C /* AppData.m in Sources */,
+				7F368F371C9A5C6600A27D3C /* AppDataUtil.m in Sources */,
+				7F368F2D1C9A14A500A27D3C /* AppCollectionViewCell.m in Sources */,
 				7F368F161C9A10D600A27D3C /* KamcordChallengeUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,25 +357,6 @@
 			targetProxy = 7F368F121C9A10D600A27D3C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		7F368EF61C9A10D600A27D3C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7F368EF71C9A10D600A27D3C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		7F368EFE1C9A10D600A27D3C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7F368EFF1C9A10D600A27D3C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		7F368F181C9A10D600A27D3C /* Debug */ = {
@@ -417,10 +445,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = KamcordChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.KamcordChallenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -428,10 +460,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = KamcordChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.KamcordChallenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -502,6 +538,7 @@
 				7F368F1C1C9A10D600A27D3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7F368F1D1C9A10D600A27D3C /* Build configuration list for PBXNativeTarget "KamcordChallengeTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +547,7 @@
 				7F368F1F1C9A10D600A27D3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7F368F201C9A10D600A27D3C /* Build configuration list for PBXNativeTarget "KamcordChallengeUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +556,7 @@
 				7F368F221C9A10D600A27D3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
