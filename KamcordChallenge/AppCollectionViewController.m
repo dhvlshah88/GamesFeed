@@ -107,7 +107,7 @@ static const CGFloat kGamesCellViewPadding = 10.0;
     AppData *selectedAppData = self.listOfAppData[indexPath.row];
     UIAlertController *alertController = [UIAlertController
                                           alertControllerWithTitle:selectedAppData.appName
-                                          message:[NSString stringWithFormat:NSLocalizedString(@"You've selected Clash of Clans, game with game_id: %@", nil) , selectedAppData.appId]
+                                          message:[NSString stringWithFormat:NSLocalizedString(@"You've selected %@, game with game_id: %@", nil), selectedAppData.appName, selectedAppData.appId]
                                           preferredStyle:UIAlertControllerStyleAlert
                                           ];
     UIAlertAction *okAction = [UIAlertAction actionWithTitle:NSLocalizedString(@"Ok", nil) style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
