@@ -10,13 +10,12 @@
 #import "AppCollectionViewCell.h"
 #import "AppDataUtil.h"
 
-#define kImage_Request_Cache_Limit 100
-#define kIpadAppJsonLimit 30
-#define kIphoneAppJsonLimit 20
-
 static NSString * const kAppCollectionViewCellIdentifier = @"kAppCollectionViewCellIdentifier";
 static NSString * kamcordUrlString = @"https://app.staging.kamcord.com/app/v3/games?count=%d";
 static const CGFloat kGamesCellViewPadding = 10.0;
+const NSInteger kImage_Request_Cache_Limit = 100;
+const NSInteger kIpadAppJsonLimit = 30;
+const NSInteger kIphoneAppJsonLimit = 20;
 
 @interface AppCollectionViewController () {
     NSURLSession *_session;
