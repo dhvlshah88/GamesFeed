@@ -1,6 +1,6 @@
 //
 //  GamesCollectionViewCell.h
-//  KamcordChallenge
+//  GamesFeed
 //
 //  Created by Dhaval on 3/16/16.
 //  Copyright © 2016 Dhaval. All rights reserved.

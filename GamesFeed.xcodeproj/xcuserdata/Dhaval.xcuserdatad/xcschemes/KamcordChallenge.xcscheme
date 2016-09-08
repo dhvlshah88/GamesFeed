@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7F368EE91C9A10D600A27D3C"
-               BuildableName = "KamcordChallenge.app"
-               BlueprintName = "KamcordChallenge"
-               ReferencedContainer = "container:KamcordChallenge.xcodeproj">
+               BuildableName = "GamesFeed.app"
+               BlueprintName = "GamesFeed"
+               ReferencedContainer = "container:GamesFeed.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7F368F051C9A10D600A27D3C"
-               BuildableName = "KamcordChallengeTests.xctest"
-               BlueprintName = "KamcordChallengeTests"
-               ReferencedContainer = "container:KamcordChallenge.xcodeproj">
+               BuildableName = "GamesFeed.xctest"
+               BlueprintName = "GamesFeedTests"
+               ReferencedContainer = "container:GamesFeed.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7F368F101C9A10D600A27D3C"
-               BuildableName = "KamcordChallengeUITests.xctest"
-               BlueprintName = "KamcordChallengeUITests"
-               ReferencedContainer = "container:KamcordChallenge.xcodeproj">
+               BuildableName = "GamesFeed.xctest"
+               BlueprintName = "GamesFeedUITests"
+               ReferencedContainer = "container:GamesFeed.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7F368EE91C9A10D600A27D3C"
-            BuildableName = "KamcordChallenge.app"
-            BlueprintName = "KamcordChallenge"
-            ReferencedContainer = "container:KamcordChallenge.xcodeproj">
+            BuildableName = "GamesFeed.app"
+            BlueprintName = "GamesFeed"
+            ReferencedContainer = "container:GamesFeed.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7F368EE91C9A10D600A27D3C"
-            BuildableName = "KamcordChallenge.app"
-            BlueprintName = "KamcordChallenge"
-            ReferencedContainer = "container:KamcordChallenge.xcodeproj">
+            BuildableName = "GamesFeed.app"
+            BlueprintName = "GamesFeed"
+            ReferencedContainer = "container:GamesFeed.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7F368EE91C9A10D600A27D3C"
-            BuildableName = "KamcordChallenge.app"
-            BlueprintName = "KamcordChallenge"
-            ReferencedContainer = "container:KamcordChallenge.xcodeproj">
+            BuildableName = "GamesFeed.app"
+            BlueprintName = "GamesFeed"
+            ReferencedContainer = "container:GamesFeed.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
